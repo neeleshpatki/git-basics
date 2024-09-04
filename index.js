@@ -5,6 +5,9 @@ function AFeature() {
     console.log("this is new feature");
     console.log("this is new feature A");
 }
+function BFeature() {
+    console.log("this is old feature");
+}
 const dob = '23/05/1998'
 const isAdult = () => {
     if (age > 18) {
